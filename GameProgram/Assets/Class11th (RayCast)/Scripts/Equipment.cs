@@ -2,6 +2,6 @@
 
 public abstract class Equipment : MonoBehaviour
 {
-    public abstract void equipment();
+    public abstract void Operate();
 
 }
