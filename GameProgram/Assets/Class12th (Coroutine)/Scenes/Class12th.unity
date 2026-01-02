@@ -164,6 +164,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreateManager
   prefab: {fileID: 0}
+  transforms: []
+  random: 0
+  clone: {fileID: 0}
 --- !u!1 &210046207
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +197,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreateManager
   prefab: {fileID: 8422892626600285392, guid: 214e08cd5e5d74c458e2a81b7ec2c84c, type: 3}
+  transforms:
+  - {fileID: 1349819631}
+  - {fileID: 1358078220}
+  - {fileID: 4533261}
+  random: 0
+  clone: {fileID: 0}
 --- !u!4 &210046209
 Transform:
   m_ObjectHideFlags: 0
@@ -381,6 +390,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreateManager
   prefab: {fileID: 0}
+  transforms: []
+  random: 0
+  clone: {fileID: 0}
 --- !u!1 &1358078219
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +438,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreateManager
   prefab: {fileID: 0}
+  transforms: []
+  random: 0
+  clone: {fileID: 0}
 --- !u!1 &1626107965
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,8 +5,11 @@ using UnityEngine.VFX;
 public class CreateManager : MonoBehaviour
 {
     [SerializeField] GameObject prefab;
-    GameObject clone;
+    [SerializeField] Transform[] transforms;
+    [SerializeField] int random;
+    [SerializeField] GameObject clone;
     WaitForSeconds wait;
+
     // [SerializeField] float timer = 0f;
 
     // void Update()
@@ -38,13 +41,15 @@ public class CreateManager : MonoBehaviour
 
         while (true)
         {
-            clone = Instantiate(prefab, gameObject.transform);
-
-            clone.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-
-            Random.Range(0, 3);
+            random = Random.Range(0, transforms.Length);
 
             yield return wait;
+
+            clone = Instantiate(prefab, gameObject.transform);
+
+            clone.transform.localPosition = transforms[random].position;
+
+            clone.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
     }
     
