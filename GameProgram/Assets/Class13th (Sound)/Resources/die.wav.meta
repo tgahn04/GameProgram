@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 159652fe20de54484882d0914255f574
+guid: a5e03bdf68a774d7bbdd11fe48caaf4c
 AudioImporter:
   serializedVersion: 6
   defaultSettings:
@@ -22,5 +22,5 @@ AssetOrigin:
   productId: 5438
   packageName: Cartoon Game Sound
   packageVersion: 2.0
-  assetPath: Assets/Cartoon Game Sound 2.0/s_ef_ce_yororo_e.wav
+  assetPath: Assets/Cartoon Game Sound 2.0/s_ef_cm_dm_umbrella_def.wav
   uploadId: 251412

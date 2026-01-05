@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5e03bdf68a774d7bbdd11fe48caaf4c
+guid: 8c287f25bbea84c0588789c62f6fb47d
 AudioImporter:
   serializedVersion: 6
   defaultSettings:
@@ -22,5 +22,5 @@ AssetOrigin:
   productId: 5438
   packageName: Cartoon Game Sound
   packageVersion: 2.0
-  assetPath: Assets/Cartoon Game Sound 2.0/s_ef_cm_dm_umbrella_def.wav
+  assetPath: Assets/Cartoon Game Sound 2.0/s_ef_cm_dm_umbrella_def3.wav
   uploadId: 251412
